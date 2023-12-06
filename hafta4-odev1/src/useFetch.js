@@ -14,7 +14,7 @@ const useFetch = (city) => {
     // Function to fetch weather data from the API
     const fetchData = async () => {
       // API URL for fetching weather data
-      const url = `http://api.weatherapi.com/v1/forecast.json?key=411657e992784fa9bee23209230612&q=${city}&days=8&aqi=no&alerts=no`;
+      const url = `http://api.weatherapi.com/v1/forecast.json?key=${APIKEY}=${city}&days=8&aqi=no&alerts=no`;
 
       try {
         // Fetch data from the API
