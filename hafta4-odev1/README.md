@@ -6,6 +6,11 @@
 
 This Weather App allows users to check the weather forecast for different cities. Users can select their preferred city and view the weather conditions for the upcoming days.
 
+## Demo
+
+Check out the [demo](https://context-ngtl2tsd7-anilaltan.vercel.app/) to see the app in action.
+
+
 ## Features
 
 - **City Selection:** Users can choose a city from a dropdown menu or allow the app to use their current location.
