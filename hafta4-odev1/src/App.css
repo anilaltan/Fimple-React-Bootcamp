@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screenshot](screenshot.jpg)
+
+## Overview
+
+This Weather App allows users to check the weather forecast for different cities. Users can select their preferred city and view the weather conditions for the upcoming days.
+
+## Features
+
+- **City Selection:** Users can choose a city from a dropdown menu or allow the app to use their current location.
+- **Weather Forecast:** The app provides an 8-day weather forecast, including maximum and minimum temperatures.
+
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- Weather API (e.g., WeatherAPI, OpenWeatherMap)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/anilaltan/Fimple-React-Bootcamp/tree/main/hafta4-odev1
+   ```
 
 ## Available Scripts
 

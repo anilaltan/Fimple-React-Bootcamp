@@ -1,0 +1,52 @@
+.container {
+  margin: 10px auto;
+  display: flex;
+  max-width: 1000px;
+  background: lightblue;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.locationDiv {
+  margin-left: 5px;
+  min-width: 150px;
+  position: relative;
+}
+
+.locationDiv::before,
+.locationDiv::after {
+  --size: 0.3rem;
+  position: absolute;
+  content: "";
+  right: 1rem;
+  pointer-events: none;
+}
+
+.locationDiv::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid black;
+  top: 40%;
+}
+
+.locationDiv::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid black;
+  top: 55%;
+}
+
+.location {
+  appearance: none;
+  /* safari */
+  -webkit-appearance: none;
+  /* other styles for aesthetics */
+  width: 100%;
+  font-size: 1.15rem;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.card {
+  padding: 10px;
+}
+
+.currentDay {
+  padding: 10px;
+  border: 1px solid rgba(212, 212, 212, 0.3);
+  border-radius: 5px;
+  background: rgba(212, 212, 212, 0.3);
+}
+
+.day {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.conditions {
+  font-size: 14px;
+}
+
+.temp span:first-child {
+  color: #f00;
+  margin-right: 10px;
+}
+
+.temp span:nth-child(2) {
+  color: #00f;
+}
