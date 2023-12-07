@@ -52,7 +52,7 @@ const SelectCity = () => {
 
           // Fetch the city information using reverse geocoding API
           const response = await fetch(
-            `https://eu1.locationiq.com/v1/reverse?key=pk.141f9f038811c6edf79a0e3b37de27d1&lat=${latitude}&lon=${longitude}&format=json`
+            `https://eu1.locationiq.com/v1/reverse?key=${APIKEY}&lat=${latitude}&lon=${longitude}&format=json`
           );
 
           // Parse the response into JSON format
