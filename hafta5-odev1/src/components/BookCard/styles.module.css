@@ -1,0 +1,147 @@
+/* styles.css */
+
+.bookCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.detailsContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+  display: block;
+  margin: 16px 0 0 0;
+  padding: 16px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 9px;
+}
+
+.title::before {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 20%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+}
+
+.authors {
+  position: relative;
+  display: block;
+  margin: 16px 0 0 0;
+  padding: 16px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 9px;
+  color: #555;
+}
+
+.authors::before {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 20%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+}
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.details ul {
+  margin: 0;
+  padding: 0 30px 0 30px;
+  list-style: none;
+  text-align: center;
+}
+
+.details ul li {
+  position: relative;
+  margin: 5px 0 5px 0;
+  padding: 5px 0 5px 0;
+  font-weight: 300;
+}
+
+.details ul li::before {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+}
+
+.button:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
